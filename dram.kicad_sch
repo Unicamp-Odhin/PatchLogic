@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8611f38e-6158-43cd-a49b-d4720eed706c")
+	(paper "A4")
+	(title_block
+		(title "ECP5 85F Platonic Board")
+		(rev "V0.1")
+		(company "ODHIN Unicamp")
+		(comment 1 "Licensed under CERN OHL V2 Permissive")
+		(comment 2 "Designed by: Julio Nunes Avelar")
+	)
+	(lib_symbols)
+)

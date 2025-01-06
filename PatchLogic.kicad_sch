@@ -1,0 +1,363 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "89c80bd2-25b6-4ea0-946a-21e1eb7d862c")
+	(paper "A4")
+	(title_block
+		(title "ECP5 85F Platonic Board")
+		(date "2025-01-05")
+		(rev "V0.1")
+		(company "ODHIN Unicamp")
+		(comment 1 "Licensed under CERN OHL V2 Permissive")
+		(comment 2 "Designed by: Julio Nunes Avelar")
+	)
+	(lib_symbols)
+	(sheet
+		(at 54.61 21.59)
+		(size 26.67 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1dcd55b0-9b45-4cac-a01f-1dc2d7863029")
+		(property "Sheetname" "ethernet"
+			(at 54.61 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 54.61 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 21.59)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24172778-4f65-429e-b4bb-b2e5f0d92b3f")
+		(property "Sheetname" "jtag"
+			(at 181.61 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 181.61 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 21.59)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4935dcdd-e2e1-40dc-b890-fbeecf26d643")
+		(property "Sheetname" "pmods"
+			(at 86.36 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmods.kicad_sch"
+			(at 86.36 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 21.59)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bee2add-4c3d-4456-91a5-2e341fd9d670")
+		(property "Sheetname" "FPGA"
+			(at 237.49 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 237.49 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 44.45)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ac9f2fb-7afd-4953-ace1-bb4374ccb519")
+		(property "Sheetname" "DRAM"
+			(at 21.59 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dram.kicad_sch"
+			(at 21.59 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 21.59)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73ebcbc3-904f-439b-8ad8-38ce813f11fa")
+		(property "Sheetname" "SDCard"
+			(at 209.55 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdcard.kicad_sch"
+			(at 209.55 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 21.59)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7563832-29b8-4f54-8f23-21e553a9d36e")
+		(property "Sheetname" "clock"
+			(at 149.86 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 149.86 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 21.59)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de6236d5-96f6-4909-9089-26bc5c96a911")
+		(property "Sheetname" "power"
+			(at 21.59 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 21.59 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 21.59)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc3ca5f9-bb1b-42e8-b75d-2ce0913a32d6")
+		(property "Sheetname" "HDMI"
+			(at 119.38 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi.kicad_sch"
+			(at 119.38 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
