@@ -5,7 +5,7 @@
 	(uuid "a6479c92-90bf-4f7f-a02e-733e4d52b69c")
 	(paper "A4")
 	(title_block
-		(title "ECP5 85F Platonic Board")
+		(title "PatchLogic 85 FPGA Board")
 		(date "2025-01-05")
 		(rev "V0.1")
 		(company "ODHIN Unicamp")

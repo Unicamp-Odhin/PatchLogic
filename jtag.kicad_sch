@@ -5,7 +5,8 @@
 	(uuid "b1248c6d-2be3-44f9-80b3-623d0e8b96d0")
 	(paper "A4")
 	(title_block
-		(title "ECP5 85F Platonic Board")
+		(title "PatchLogic 85 FPGA Board")
+		(date "2025-01-06")
 		(rev "V0.1")
 		(company "ODHIN Unicamp")
 		(comment 1 "Licensed under CERN OHL V2 Permissive")
@@ -4115,7 +4116,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 72.39) (xy 48.26 72.39)
+			(xy 48.26 72.39) (xy 107.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4212,16 +4213,6 @@
 			(type default)
 		)
 		(uuid "59d26fb0-1d37-404c-8d1c-315b01d6eaf2")
-	)
-	(wire
-		(pts
-			(xy 74.93 66.04) (xy 88.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aae8ee8-dc9a-48e5-a203-d5f4ab054d86")
 	)
 	(wire
 		(pts
@@ -4555,7 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 66.04) (xy 48.26 66.04)
+			(xy 48.26 66.04) (xy 88.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5252,16 +5243,6 @@
 			(type default)
 		)
 		(uuid "f69add3e-4e3f-4449-9549-90ceacc6a42e")
-	)
-	(wire
-		(pts
-			(xy 74.93 72.39) (xy 107.95 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9b54d61-412d-4d01-8d1a-71d72e49c6ea")
 	)
 	(wire
 		(pts
@@ -7588,73 +7569,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 71.12 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "710e1431-7c47-4aed-b423-aedd5f793d24")
-		(property "Reference" "R4"
-			(at 71.12 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 71.12 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70f2fda7-ece4-4664-be3f-f8380cf422e8")
-		)
-		(pin "1"
-			(uuid "a8c1625c-c62c-4b12-b9c9-1a927803c2d8")
-		)
-		(instances
-			(project ""
-				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/24172778-4f65-429e-b4bb-b2e5f0d92b3f"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 25.4 93.98 0)
 		(unit 1)
@@ -8735,73 +8649,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 71.12 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bacf35e3-b58f-47d4-a95f-5c5ef0916a05")
-		(property "Reference" "R3"
-			(at 71.12 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 71.12 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 64.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d53672a-4ff4-430a-bbd8-3b006f2a5364")
-		)
-		(pin "1"
-			(uuid "b81b30ff-f62a-4b84-966d-6aab2259ced4")
-		)
-		(instances
-			(project ""
-				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/24172778-4f65-429e-b4bb-b2e5f0d92b3f"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 93.98 0)
 		(unit 1)
@@ -9290,7 +9137,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 100.33 86.614 90)
 			(effects
 				(font
