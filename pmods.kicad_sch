@@ -2051,7 +2051,7 @@
 				)
 			)
 		)
-		(symbol "power:+1V35"
+		(symbol "power:+1V5"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2068,7 +2068,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+1V35"
+			(property "Value" "+1V5"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2094,7 +2094,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(property "Description" "Power symbol creates a global label with name \"+1V5\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2112,7 +2112,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+1V35_0_1"
+			(symbol "+1V5_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2150,7 +2150,7 @@
 					)
 				)
 			)
-			(symbol "+1V35_1_1"
+			(symbol "+1V5_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -7375,138 +7375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V35")
-		(at 62.23 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ecb6771-43e5-43ed-9d64-cf37c0d321a2")
-		(property "Reference" "#PWR072"
-			(at 62.23 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V35"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 62.23 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce05fd35-9a3b-4dab-8e86-fadeb42916b6")
-		)
-		(instances
-			(project ""
-				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/4935dcdd-e2e1-40dc-b890-fbeecf26d643"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V35")
-		(at 134.62 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "289b19a4-a3ad-4cb7-86fa-b486456169d9")
-		(property "Reference" "#PWR073"
-			(at 134.62 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V35"
-			(at 134.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fc263d4-5a71-4e8f-b5af-46d9d9f89280")
-		)
-		(instances
-			(project "OpenEduFPGABoard"
-				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/4935dcdd-e2e1-40dc-b890-fbeecf26d643"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 97.79 90)
 		(unit 1)
@@ -7792,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_3"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -8564,7 +8432,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_6"
 			(at 48.26 92.71 0)
 			(effects
 				(font
@@ -8639,6 +8507,72 @@
 			(project "OpenEduFPGABoard"
 				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/4935dcdd-e2e1-40dc-b890-fbeecf26d643"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V5")
+		(at 134.62 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57eb39b0-55e3-484b-a896-e9abebb648f7")
+		(property "Reference" "#PWR073"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V5"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V5\""
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e40488-8823-4dc2-a52b-1e2f7a514612")
+		)
+		(instances
+			(project "PatchLogic"
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/4935dcdd-e2e1-40dc-b890-fbeecf26d643"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8840,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_7"
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -9005,7 +8939,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_2"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -9170,7 +9104,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_4"
 			(at 48.26 67.31 0)
 			(effects
 				(font
@@ -9268,7 +9202,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_1"
 			(at 99.06 20.32 0)
 			(effects
 				(font
@@ -9343,6 +9277,72 @@
 			(project "OpenEduFPGABoard"
 				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/4935dcdd-e2e1-40dc-b890-fbeecf26d643"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V5")
+		(at 62.23 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76844c4a-c8f6-4a9b-a2a8-fafc56c7113f")
+		(property "Reference" "#PWR072"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V5"
+			(at 62.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V5\""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7d29ab-4ce7-4201-b6a4-4d966d771d80")
+		)
+		(instances
+			(project ""
+				(path "/89c80bd2-25b6-4ea0-946a-21e1eb7d862c/4935dcdd-e2e1-40dc-b890-fbeecf26d643"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9906,7 +9906,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_0"
 			(at 48.26 20.32 0)
 			(effects
 				(font
@@ -10519,7 +10519,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
+		(property "Value" "PMOD_5"
 			(at 99.06 67.31 0)
 			(effects
 				(font
